@@ -1,0 +1,15 @@
+{
+	"name" : "ochnygoschorg/module-magento2-column-action-test",
+	"description" : "Test magento 2 grid column action callback",
+	"type" : "magento2-module",
+	"version" : "0.1.0",
+	"require" : {
+		"magento/module-cms" : "~102.0"
+	},
+	"autoload" : {
+		"files" : [ "registration.php" ],
+		"psr-4" : {
+			"OchnygoschOrg\\Magento2ColumnActionTest\\" : ""
+		}
+	}
+}
