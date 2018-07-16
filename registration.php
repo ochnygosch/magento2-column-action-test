@@ -2,4 +2,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'OchnygoschOrg_Magento2ColumnActionTest', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Ochnygosch_Magento2ColumnActionTest', __DIR__);
