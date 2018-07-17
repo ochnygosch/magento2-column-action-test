@@ -22,7 +22,7 @@ class TestActions extends Column
                         'label' => __('Test Single'),
                         'callback' => [
                             [
-                                'provider' => 'ochnygoschorg_test',
+                                'provider' => 'ochnygoschorg_magento2columnactiontest',
                                 'target' => 'testSingle',
                                 'params' => 'Test Single Argument'
                             ]
